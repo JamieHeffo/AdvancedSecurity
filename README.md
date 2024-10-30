@@ -1,29 +1,33 @@
 # AdvancedSecurity
 
-A repository for coursework and projects on cryptography and cybersecurity, focusing on secure communication protocols, cryptographic algorithms, and foundational security concepts.
+A repository for projects and coursework focused on cryptography and cybersecurity, including various algorithms and security protocols.
 
 ## Repository Contents
 
-### Assignment 01: Introduction to Cryptographic Algorithms
+### Assignment 01: Cryptography Basics
 
-- **AES (Advanced Encryption Standard)**: Implementations and examples using AES encryption for securing data.
-  - `aes_encryption.py`: A Python script demonstrating AES encryption and decryption.
-  - `aes_keygen.py`: Key generation and management for AES, showcasing secure key handling practices.
+- **Caesar Cipher**: A simple substitution cipher used for encryption and decryption.
+  - `caesar_cipher.py`: Python implementation of the Caesar cipher.
+  
+- **Vigenère Cipher**: A method using a keyword to encrypt text.
+  - `vigenere_cipher.py`: Python implementation of the Vigenère cipher.
 
-- **DES (Data Encryption Standard)**: An older, symmetric-key algorithm used for educational purposes.
-  - `des_encryption.py`: Demonstrates DES encryption and decryption, highlighting limitations compared to AES.
+### Assignment 02: Advanced Cryptographic Techniques
 
-- **RSA (Rivest-Shamir-Adleman)**: An asymmetric encryption method used for secure data transmission.
-  - `rsa_keygen.py`: Generates public and private keys for RSA encryption.
-  - `rsa_encryption.py`: Encrypts and decrypts messages using RSA, with notes on its use in secure data exchange.
+- **AES (Advanced Encryption Standard)**: Secure encryption algorithm.
+  - `aes_encryption.py`: Implementation of AES encryption and decryption.
 
-### Assignment 02: Network Security and Data Integrity
+- **RSA (Rivest-Shamir-Adleman)**: Asymmetric encryption algorithm.
+  - `rsa_keygen.py`: Generates keys for RSA.
+  - `rsa_encryption.py`: Encrypts and decrypts messages using RSA.
 
-- **SHA-256 (Secure Hash Algorithm)**: A cryptographic hash function for data integrity.
-  - `sha256_hash.py`: Generates SHA-256 hashes, demonstrating data integrity and verification.
+### Assignment 03: Network Security
 
-- **Diffie-Hellman Key Exchange**: A method for securely exchanging cryptographic keys.
-  - `diffie_hellman.py`: Implementation of the Diffie-Hellman key exchange protocol, a foundation of secure communications.
+- **SHA-256**: A cryptographic hash function.
+  - `sha256_hash.py`: Implementation of SHA-256 hashing for data integrity.
+
+- **Diffie-Hellman Key Exchange**: Secure method for key exchange.
+  - `diffie_hellman.py`: Demonstration of the Diffie-Hellman protocol.
 
 ## Requirements
 
