@@ -29,10 +29,6 @@ A repository for projects and coursework focused on cryptography and cybersecuri
 - **Diffie-Hellman Key Exchange**: Secure method for key exchange.
   - `diffie_hellman.py`: Demonstration of the Diffie-Hellman protocol.
 
-## Requirements
-
-- Basic understanding of cryptographic concepts
-- Python 3.7+ for running the scripts
 
 ## Getting Started
 
